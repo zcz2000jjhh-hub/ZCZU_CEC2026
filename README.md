@@ -30,16 +30,24 @@ Output:
 3. Initialize the fitness values, archive, and constraint-processing status.
 
 4. While the termination condition is not satisfied:
+   
       4.1 Update the search-status information.
+   
       4.2 Determine whether the algorithm should enter the next constraint-processing stage.
+   
       4.3 Generate offspring for the two populations.
+   
       4.4 Update the external archive.
+   
       4.5 Perform environmental selection for Population1.
+   
       4.6 Perform environmental selection for Population2.
+   
       4.7 Update the resource allocation ratio according to offspring success rates.
+   
       4.8 Record Min_IGD and MCV.
 
-5. Return the final population.
+6. Return the final population.
 
 
 ## Experimental Settings
